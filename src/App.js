@@ -1,7 +1,7 @@
 import React from 'react';
 import {
   BrowserRouter as Router,
-  //Switch,
+  Switch,
   Route,
   Link
 } from "react-router-dom";
@@ -48,9 +48,11 @@ class App extends React.Component {
             </Navbar.Collapse>
           </Navbar>
 
-          <Route path="/" exact render={() => <HomePage />} />
-          <Route path="/about" render={() => <AboutPage />} />
-          <Route path="/contact" render={() => <ContactPage />} />
+          <Switch>
+            <Route path="/" exact render={() => <HomePage />} />
+            <Route path="/about" render={() => <AboutPage />} />
+            <Route path="/contact" render={() => <ContactPage />} />
+          </Switch>
 
           <Footer />
 
