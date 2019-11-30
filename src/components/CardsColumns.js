@@ -24,7 +24,7 @@ function CardsColumns(props){
                     <Card.Body className='p-0 mb-3'>
                         <Card.Title>Photography</Card.Title>
                         <Card.Text>
-                            Photography has been a hobby of mine for a long time. Sadly I don't travel much, but I like taking portraits of people. As an introvert, taking portraits is a way of mine to communicate and connect with people. However, I want to do astrophotography at some point because I love space and the vibe that comes along with it. The essence of space makes me think, and the more I dive deep into my thoughts it gets more enlightening.
+                            Photography has been a hobby of mine for a long time. Sadly I don't travel much, but I like taking portraits of people. As an introvert, taking portraits is a way of mine to communicate and connect with people. However, I want to do astrophotography at some point because I love space and the vibe that comes along with it. Follow my photography journey on Instagram <a href='https://www.instagram.com/muhfasul.photography/' className='text-decoration-none' target='_blank' rel='noopener noreferrer'>@muhfasul.photography</a>
                         </Card.Text>
                     </Card.Body>
                 </Card>

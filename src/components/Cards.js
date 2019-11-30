@@ -17,6 +17,7 @@ function Cards(){
                     <Card.Title>Coding Projects</Card.Title>
                     <Card.Text>
                         Over the past few years I have created many things that I'm proud of. These are a few examples. My skills are not at professional level yet but I try my best. I've passion for creating and hopefully oneday I'll get there.
+                        Check out all my works on Github <a className='text-decoration-none' alt="Github" rel="noopener noreferrer" href="https://github.com/muhfasul159" target='_blank'>@muhfasul159</a> 
                     </Card.Text>
                 </Card.Body>
             </Card>
