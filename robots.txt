@@ -1,2 +1,6 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Disallow: /about
+
+User-agent: Googlebot-Image
+Disallow: /
