@@ -21,7 +21,7 @@ function HomePage(){
                 </p>
                 <ButtonToolbar fluid={true} ml-2>
                     <Button variant="outline-success" href='/contact' target='_blank'>Resume</Button>
-                    <Button variant="outline-success" href='/#/contact'>Hire Me</Button>
+                    <Button variant="outline-success" href='https://muhfasul.com/#/contact'>Hire Me</Button>
                     <Button variant="outline-success" href='/contact' target='_blank'>Memes</Button>
                     <Button variant="outline-success" href='https://open.spotify.com/user/21oqb4noyhzy4g4skuiguhxki?si=EjSvpMBbQHWzJ_3wHwp5Sg' target='_blank'>Playlists</Button>
                 </ButtonToolbar>
