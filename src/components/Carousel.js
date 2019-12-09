@@ -32,7 +32,7 @@ function ControlledCarousel() {
                         <Button className='mb-3' variant="outline-success" href='https://dribbble.com/muhfasul159' target='_blank'>Graphic Design</Button>
                     </Col>
 
-                    <Col xs={12} md={6} className='p-0' data-aos='fade-up'>
+                    <Col xs={12} md={6} className='p-0 shadow bg-white' data-aos='fade-up'>
 
                         <Carousel className='w-100'>
                             <Carousel.Item>

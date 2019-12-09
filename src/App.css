@@ -10,12 +10,20 @@
 
 a {
   color: white;
+  transition: 300ms;
 }
 a:hover {
   color: #66ffb3;
 }
+
+.navbar-light .navbar-brand{
+  color: #37db89;
+  transition: 300ms;
+}
+
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-  color: white;
+  color: #37db89;
+  transform: scale(1.05);
 }
 
 .navbar-toggler{
@@ -31,19 +39,22 @@ a:hover {
 .btn{
   border-radius: 0;
   font-size: 1.3rem;
-  border: 2px solid;
 }
 
 .btn-outline-success {
-  color: #37db89;
+  background-color: rgb(55, 219, 137);
   border-color: #37db89;
+  color: #ffffff;
   margin-right: 1rem;
   margin-top: 1rem;
+  transition: 300ms;
 }
 
 .btn-outline-success:hover{
-  background-color: #37db89;
+  background-color: rgb(55, 219, 137);
   border-color: #37db89;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.13);
+  transform: scale(1.1);
 }
 
 .card-title.h5{
@@ -82,7 +93,7 @@ a:hover {
 }
 
 .card a{
-  color: #37db89;
+  color: rgb(55, 219, 137);
 }
 
 .form-control {
@@ -111,4 +122,8 @@ a:hover {
 
 .carousel-indicators{
   display: none;
+}
+
+.shadow{
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .5)!important;
 }

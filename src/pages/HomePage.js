@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
 import Cards from '../components/Cards';
 import AOS from '../../node_modules/aos/dist/aos';
-import Sound from '../components/Sound';
+import Pronunciation from '../components/Pronunciation';
 import CardsColumns from '../components/CardsColumns';
 import ControlledCarousel from '../components/Carousel';
 
@@ -14,7 +14,7 @@ function HomePage(){
                 <p>Hi there,</p>
                 <h1>I'm <span>Muhfasul</span></h1>
                 
-                <Sound />
+                <Pronunciation />
                 
                 <p>A high school junior at Bronx Academy for Software Engineering with experience in Software Developing and Graphics Design.
                     I'm passionate about Technology, Art and Philosophy. I love memes.

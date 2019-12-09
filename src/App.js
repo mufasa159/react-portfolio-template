@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -34,8 +34,8 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom sticky-top bg" expand='lg'>
-            <Navbar.Brand>MUHFASUL</Navbar.Brand>
+          <Navbar className="sticky-top bg" expand='lg'>
+            <Navbar.Brand href='https://muhfasul.com/'>MUHFASUL</Navbar.Brand>
             
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
             <Navbar.Collapse id='navbar-toggle'>

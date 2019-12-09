@@ -12,7 +12,7 @@ function Cards(){
     return(
         
         <CardDeck>
-            <Card className="text-left bg" data-aos="fade-up" text='white'>
+            <Card className="text-left bg shadow" data-aos="fade-up" text='white'>
                 <Card.Body>
                     <Card.Title>Coding Projects</Card.Title>
                     <Card.Text>
@@ -22,7 +22,7 @@ function Cards(){
                 </Card.Body>
             </Card>
 
-            <Card data-aos="fade-up" className='bg' text='white'>
+            <Card data-aos="fade-up" className='bg shadow' text='white'>
                 <Card.Img variant="top" src={superMario} />
                 <Card.Body>
                     <Card.Title>Mario Bros</Card.Title>
@@ -36,7 +36,7 @@ function Cards(){
                 </Card.Footer>
             </Card>
 
-            <Card data-aos="fade-up" className='bg' text='white'>
+            <Card data-aos="fade-up" className='bg shadow' text='white'>
                 <Card.Img variant="top" src={ceaserCipher} />
                 <Card.Body>
                     <Card.Title>Ceaser Cipher</Card.Title>
@@ -50,7 +50,7 @@ function Cards(){
                 </Card.Footer>
             </Card>
 
-            <Card data-aos="fade-up" className='bg' text='white'>
+            <Card data-aos="fade-up" className='bg shadow' text='white'>
                 <Card.Img variant="top" src={billyTheCat} />
                 <Card.Body>
                     <Card.Title>Billy The Cat</Card.Title>
@@ -64,7 +64,7 @@ function Cards(){
                 </Card.Footer>
             </Card>
 
-            <Card data-aos="fade-up" className='bg' text='white'>
+            <Card data-aos="fade-up" className='bg shadow' text='white'>
                 <Card.Img variant="top" src={animation} />
                 <Card.Body>
                     <Card.Title>Animation</Card.Title>
