@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -14,7 +14,6 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Footer from './components/Footer';
-import NoMatch from './components/NoMatch';
 
 class App extends React.Component {
   
@@ -46,9 +45,6 @@ class App extends React.Component {
             </Route>
             <Route path='/contact'>
               <ContactPage />
-            </Route>
-            <Route path="*">
-              <NoMatch />
             </Route>
             {/*
             <Route path="/" exact render={() => <HomePage />} />
