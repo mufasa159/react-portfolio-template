@@ -23,7 +23,7 @@ function ContactPage(){
 
                 <Form.Group controlId="formBasicText">
                     <Form.Label>Message</Form.Label>
-                    <Form.Control input as="textarea" name="message" placeholder="How's life?" required />
+                    <Form.Control input as="textarea" name="message" placeholder="I've got a plan!" required />
                 </Form.Group>
 
                 <Button variant="outline-success" type="submit">
