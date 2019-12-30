@@ -23,12 +23,12 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="sticky-top bg" expand='lg'>
-            <Navbar.Brand href='https://muhfasul.com/'>Michael</Navbar.Brand>
+            <Navbar.Brand href=''>Michael</Navbar.Brand>
             
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
             <Navbar.Collapse id='navbar-toggle'>
               <Navbar className='ml-auto'>
-                <Link className='nav-link' to='/'>Home</Link>
+                <Link className='nav-link' to='/portfolio'>Home</Link>
                 <Link className='nav-link' to='/about'>About</Link>
                 <Link className='nav-link' to='/contact'>Contact</Link>
 
