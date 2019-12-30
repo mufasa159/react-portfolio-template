@@ -1,9 +1,10 @@
 # Portfolio Website Template
 
-A static multipage portfolio website for beginners made with React.js. Just update the infos and customize it however you want.
+A static multipage portfolio website for beginners made with React.js. Just update the infos and customize it however you want.  
+Demo: [Click Here](https://muhfasul159.github.io/portfolio/)
 
 
-### installation  
+### Installation  
 
 Clone the repo on your machine.  
 Open Terminal, `cd` to the project folder. and run `npm install`  
