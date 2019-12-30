@@ -62,19 +62,6 @@ a:hover {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.card-columns{
-  column-count: 4;
-}
-
-@media screen and (max-width: 770px) {
- .card-columns {
-    column-count: 2;
-  }
-  .card-deck .card-columns{
-    column-count: 2;
-  }
-}
-
 .card-deck{
   justify-content: center;
   margin: 0% 2.5%;

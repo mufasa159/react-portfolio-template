@@ -6,24 +6,24 @@ import AOS from '../../node_modules/aos/dist/aos';
 function ContactPage(){
     return(
         <div className='main' data-aos="fade-up">
-            <h1>Let's Talk</h1>
-            <p>Have any questions? Feel free to ask.</p>
+            <h1>Hit Me Up</h1>
+            <p>I reply fast. Let me know if you have any questions or feedback</p>
 
-            <Form action='https://formspree.io/meqoepzy' method="POST">
+            <Form action='https://formspree.io/' method="POST">
 
                 <Form.Group controlId="formBasicName">
                     <Form.Label>Full Name</Form.Label>
-                    <Form.Control type="text" name='name' placeholder="Gavin Belson" required/>
+                    <Form.Control type="text" name='name' placeholder="Science" required/>
                 </Form.Group>
 
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" name="_replyto" placeholder="name@hooli.com" required/>
+                    <Form.Control type="email" name="_replyto" placeholder="science@god.com" required/>
                 </Form.Group>
 
                 <Form.Group controlId="formBasicText">
                     <Form.Label>Message</Form.Label>
-                    <Form.Control input as="textarea" name="message" placeholder="I've got a plan!" required />
+                    <Form.Control input as="textarea" name="message" placeholder="Thanks." required />
                 </Form.Group>
 
                 <Button variant="outline-success" type="submit">

@@ -5,15 +5,10 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 import one from '../assets/images/paintings/one.jpg';
-import two from '../assets/images/paintings/two.jpg';
+import two from '../assets/images/paintings/two.jpeg';
 import three from '../assets/images/paintings/three.jpg';
 import four from '../assets/images/paintings/four.jpg';
 import five from '../assets/images/paintings/five.jpg';
-import six from '../assets/images/paintings/six.jpg';
-import seven from '../assets/images/paintings/seven.jpg';
-import eight from '../assets/images/paintings/eight.jpg';
-import nine from '../assets/images/paintings/nine.jpg';
-import ten from '../assets/images/paintings/ten.jpg';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 
@@ -25,11 +20,9 @@ function ControlledCarousel() {
             <Container fluid={true}>
                 <Row>
                     <Col xs={12} md={6} className='p-0 pr-5 pb-3' data-aos='fade-right'>
-                        <Card.Title>Art & Design</Card.Title>
-                        <Card.Text className='mb-100'>Art makes us more human. it helps us communicate in a different, personal language.
-                        That's one of the reasons why I love art. I like painting as well as graphic design. I have been painting since I was 10. I often use acrylic and sometimes watercolor.
-                        Fun fact: I only paint on sunny days.</Card.Text>
-                        <Button className='mb-3' variant="outline-success" href='https://dribbble.com/muhfasul159' target='_blank'>Graphic Design</Button>
+                        <Card.Title>Extra Stuff</Card.Title>
+                        <Card.Text className='mb-100'>If so, perfect. Try this. Run your finger along the outer edge of the tip of your upside down tongue. Your tongue will be able to feel your finger, but in the wrong place. Our brains never needed to develop an understanding of upside down tongue touch. So, when you touch the right side of your tongue when it's flipped over to your left side you perceive a sensation on the opposite side, where your tongue usually is but isn't when it's upside down. It's pretty freaky and cool and a little humbling, because it shows the limits of the accuracy of our senses, the only tools we have to get what's out there in here.</Card.Text>
+                        <Button className='mb-3' variant="outline-success" href='' target='_blank'>Link</Button>
                     </Col>
 
                     <Col xs={12} md={6} className='p-0 shadow bg-white' data-aos='fade-up'>
@@ -71,46 +64,6 @@ function ControlledCarousel() {
                             <img
                                 className="w-100"
                                 src={five}
-                                alt="Third slide"
-                            />
-                            </Carousel.Item>
-
-                            <Carousel.Item>
-                            <img
-                                className="w-100"
-                                src={six}
-                                alt="Third slide"
-                            />
-                            </Carousel.Item>
-
-                            <Carousel.Item>
-                            <img
-                                className="w-100"
-                                src={seven}
-                                alt="Third slide"
-                            />
-                            </Carousel.Item>
-
-                            <Carousel.Item>
-                            <img
-                                className="w-100"
-                                src={eight}
-                                alt="Third slide"
-                            />
-                            </Carousel.Item>
-
-                            <Carousel.Item>
-                            <img
-                                className="w-100"
-                                src={nine}
-                                alt="Third slide"
-                            />
-                            </Carousel.Item>
-
-                            <Carousel.Item>
-                            <img
-                                className="w-100"
-                                src={ten}
                                 alt="Third slide"
                             />
                             </Carousel.Item>

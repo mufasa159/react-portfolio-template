@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -23,7 +23,7 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="sticky-top bg" expand='lg'>
-            <Navbar.Brand href='https://muhfasul.com/'>MUHFASUL</Navbar.Brand>
+            <Navbar.Brand href='https://muhfasul.com/'>Michael</Navbar.Brand>
             
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle'/>
             <Navbar.Collapse id='navbar-toggle'>
@@ -46,11 +46,6 @@ class App extends React.Component {
             <Route path='/contact'>
               <ContactPage />
             </Route>
-            {/*
-            <Route path="/" exact render={() => <HomePage />} />
-            <Route path="/about" render={() => <AboutPage />} />
-            <Route path="/contact" render={() => <ContactPage />} />
-            */}
           </Switch>
 
           <Footer />
