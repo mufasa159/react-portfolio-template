@@ -37,7 +37,7 @@ class App extends React.Component {
           </Navbar>
 
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/portfolio'>
               <HomePage />
             </Route>
             <Route path='/about'>

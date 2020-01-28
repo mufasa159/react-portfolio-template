@@ -1,9 +1,9 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import ButtonToolbar from 'react-bootstrap/ButtonToolbar';
-import Cards from '../components/Cards';
 import AOS from '../../node_modules/aos/dist/aos';
 import ControlledCarousel from '../components/Carousel';
+import Projects from '../components/Projects';
 
 function HomePage(){
     return(
@@ -19,7 +19,7 @@ function HomePage(){
                 </ButtonToolbar>
             </div>
             
-            <div className='portfolio' fluid={true}><Cards /></div>
+            <div className='portfolio' fluid={true}><Projects /></div>
             <ControlledCarousel />
 
         </div>

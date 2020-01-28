@@ -14,12 +14,12 @@ function Footer() {
         <footer className="mt-5 border-top">
             <Container fluid={true}>
                 <div className='mt-3 d-flex justify-content-center' >
-                    <a className='mr-2' alt="Dribbble" rel="noopener noreferrer" href="" target='_blank'><img className='media' src={dribbble} /></a>
-                    <a className='mr-2' alt="Facebook" rel="noopener noreferrer" href="" target='_blank'><img className='media' src={facebook} /></a>
-                    <a className='mr-2' alt="Twitter" rel="noopener noreferrer" href="" target='_blank'><img className='media' src={twitter} /></a>
-                    <a className='mr-2' alt="Instagram" rel="noopener noreferrer" href="" target='_blank'><img className='media' src={instagram} /></a>
-                    <a className='mr-2' alt="Github" rel="noopener noreferrer" href="" target='_blank'><img className='media' src={github} /></a>
-                    <a className='mr-2' alt="Linkedin" rel="noopener noreferrer" href="" target='_blank'><img className='media' src={linkedin} /></a>
+                    <a className='mr-2' rel="noopener noreferrer" href="" target='_blank'><img alt="Dribbble" className='media' src={dribbble} /></a>
+                    <a className='mr-2' rel="noopener noreferrer" href="" target='_blank'><img alt="Facebook" className='media' src={facebook} /></a>
+                    <a className='mr-2' rel="noopener noreferrer" href="" target='_blank'><img alt="Twitter" className='media' src={twitter} /></a>
+                    <a className='mr-2' rel="noopener noreferrer" href="" target='_blank'><img alt="Instagram" className='media' src={instagram} /></a>
+                    <a className='mr-2' rel="noopener noreferrer" href="" target='_blank'><img alt="Github"  className='media' src={github} /></a>
+                    <a className='mr-2' rel="noopener noreferrer" href="" target='_blank'><img alt="Linkedin" className='media' src={linkedin} /></a>
                 </div>
                 <small className="p-2 d-flex justify-content-center text-center">
                     Website created by Muhfasul Alam <br/>https://github.com/muhfasul159
